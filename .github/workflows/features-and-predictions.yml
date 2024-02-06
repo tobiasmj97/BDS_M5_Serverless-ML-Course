@@ -20,8 +20,8 @@ jobs:
       - name: install python packages
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
           pip install notebook ipykernel
+          pip install -r requirements.txt
           python -m ipykernel install --user --name python3 --display-name "Python 3.11.5"
       - name: execute python workflows from bash script
         env: 
