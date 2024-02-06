@@ -23,6 +23,7 @@ jobs:
           pip install notebook ipykernel
           pip install -r requirements.txt
           python -m ipykernel install --user --name python3 --display-name "Python 3.11.5"
+          pip install -U jinja2
       - name: execute python workflows from bash script
         env: 
           HOPSWORKS_API_KEY: ${{ secrets.HOPSWORKS_API_KEY }}
