@@ -1,8 +1,3 @@
-faker
-parsedatetime
-nbconvert
-plotly
-streamlit_folium
 dataframe_image==0.2.3
 hopsworks==3.4.4
 hsml==3.4.5
@@ -10,5 +5,5 @@ joblib==1.1.1
 matplotlib==3.6.3
 pandas==1.5.1
 Pillow==10.2.0
-scikit-learn==1.4.0
+scikit_learn==1.4.0
 seaborn==0.13.2
