@@ -1,8 +1,8 @@
-faker
-parsedatetime
-nbconvert
-plotly
-streamlit_folium
+faker==14.2.0
+parsedatetime==2.6
+nbconvert==7.2.0
+plotly==5.9.0
+streamlit_folium==0.17.4
 dataframe_image==0.2.3
 hopsworks==3.4.4
 hsml==3.4.5
