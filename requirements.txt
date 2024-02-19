@@ -1,6 +1,6 @@
 #faker==14.2.0
 parsedatetime==2.6
-nbconvert==7.2.0
+#nbconvert==7.2.0
 #plotly==5.9.0
 #streamlit_folium==0.17.4
 dataframe_image==0.2.3
