@@ -103,6 +103,3 @@ iris_fg = fs.get_or_create_feature_group(name="iris",
 iris_fg.insert(iris_df)
 
 # %%
-
-
-
