@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ![readme header](/assets//images/card_horizontal.jpg)
 
 
@@ -141,3 +142,8 @@ https://docs.github.com/en/billing/managing-billing-for-github-actions/about-bil
         <img src="https://assets.website-files.com/5f6353590bb01cacbcecfbac/6202a13e7cafec5553703f6b_logo.svg" alt="Hopsworks" width="250"/>
     </a>
 </p>
+=======
+[![iris-pipelines](https://github.com/featurestoreorg/serverless-ml-course/actions/workflows/features-and-predictions.yml/badge.svg)](https://github.com/featurestoreorg/serverless-ml-course/actions/workflows/features-and-predictions.yml)
+
+
+>>>>>>> 30c8f7da6c17a11886542aad3b9bec24dd6e05e6
