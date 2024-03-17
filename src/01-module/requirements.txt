@@ -1,7 +1,7 @@
 dataframe_image==0.2.3
 hopsworks==3.4.4
 hsml==3.4.5
-joblib==1.1.1
+joblib==1.2.0
 matplotlib==3.6.3
 pandas==1.5.1
 Pillow==10.2.0
