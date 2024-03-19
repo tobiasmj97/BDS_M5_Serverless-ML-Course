@@ -18,7 +18,7 @@ fs = project.get_feature_store()
 
 # %%
 mr = project.get_model_registry()
-model = mr.get_model("iris_test_roman", version=1)
+model = mr.get_model("iris_test_class", version=1)
 model_dir = model.download()
 model = joblib.load(model_dir + "/iris_model.pkl")
 
@@ -30,7 +30,7 @@ model = joblib.load(model_dir + "/iris_model.pkl")
 # Note, that it is 'tabular data'. There are 5 columns: 4 of them are "features", and the "variety" column is the **target** (what we are trying to predict using the 4 feature values in the target's row).
 
 # %%
-feature_view = fs.get_feature_view(name="iris_test_roman", version=1)
+feature_view = fs.get_feature_view(name="iris_test_class", version=1)
 
 # %% [markdown]
 # Now we will do some **Batch Inference**. 
@@ -61,7 +61,7 @@ img = Image.open(flower_img)
 img.save("../../assets/latest_iris.png")
 
 # %%
-iris_fg = fs.get_feature_group(name="iris_test_roman", version=1)
+iris_fg = fs.get_feature_group(name="iris_test_class", version=1)
 df = iris_fg.read()
 df
 
