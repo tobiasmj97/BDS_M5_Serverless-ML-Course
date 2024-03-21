@@ -1,4 +1,4 @@
-#faker==14.2.0
+faker==14.2.0
 parsedatetime==2.6
 #nbconvert==7.2.0
 #plotly==5.9.0
